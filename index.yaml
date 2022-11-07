@@ -3,13 +3,13 @@ entries:
   venco-bench:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-07T22:30:33.002104+01:00"
+    created: "2022-11-07T23:00:35.487297+01:00"
     dependencies:
     - name: venco-nginx
       repository: https://vencoafrica.github.io/helm-charts
       version: 0.1.0
     description: Venco frappe bench instance chart
-    digest: 67710e165d8a55a61516e0dda1135271732b8a2e770430581cd514b96d56dbe2
+    digest: c287d1643abfc8022190f7626701a0bc1cca72097cdc3ead63f0fc96ad66c3dc
     name: venco-bench
     type: application
     urls:
@@ -18,12 +18,12 @@ entries:
   venco-nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-07T22:30:33.002328+01:00"
+    created: "2022-11-07T23:00:35.487844+01:00"
     description: A Helm chart for Kubernetes
-    digest: dc3082ebd63e8adf76ee477fc8d99be797507cfd59688fef9260a1149e809467
+    digest: 3af7e479ab417ce9dca94d7c5ccd3fee58e164a7f3cbfff8ea5cb630bce05f7b
     name: venco-nginx
     type: application
     urls:
     - https://vencoafrica.github.io/helm-charts/venco-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-07T22:30:33.001597+01:00"
+generated: "2022-11-07T23:00:35.486615+01:00"
