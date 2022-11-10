@@ -3,16 +3,16 @@ entries:
   venco-bench:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-10T15:14:20.233191+01:00"
+    created: "2022-11-10T15:16:20.092326+01:00"
     dependencies:
     - name: venco-nginx
       repository: https://vencoafrica.github.io/helm-charts
       version: 0.1.2
     - name: venco-mariadb
       repository: https://vencoafrica.github.io/helm-charts
-      version: 0.1.0
+      version: 0.1.2
     description: Venco frappe bench instance chart
-    digest: 7c7618aec7305a80312d9af05a3066640df15b4351dae727ceb5d33161f8a50a
+    digest: 3585fbd6bc38fe3a60cc09ec7a48b0b8b2456ef2426af858a729f7329140686e
     name: venco-bench
     type: application
     urls:
@@ -21,9 +21,9 @@ entries:
   venco-mariadb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-10T15:14:20.233898+01:00"
+    created: "2022-11-10T15:16:20.092876+01:00"
     description: Venco Mariadb Instance chart
-    digest: 5dcbd2d4f771d383267b8bffc7d14a24295706ea42291e597910b6bd566b8af1
+    digest: 784b91e51cc9ca08449e1b8a630869c0ac11f89376be7164f5a0f092abcc2fa1
     name: venco-mariadb
     type: application
     urls:
@@ -31,7 +31,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-10T15:14:20.233623+01:00"
+    created: "2022-11-10T15:16:20.092598+01:00"
     description: A Helm chart for Kubernetes
     digest: 91094c54f2ad3d110efbf67cb189ee3853533505236b7ca550241dea721d2f1f
     name: venco-mariadb
@@ -42,12 +42,12 @@ entries:
   venco-nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-10T15:14:20.234153+01:00"
+    created: "2022-11-10T15:16:20.094065+01:00"
     description: Venco nginx instance
-    digest: 4b914667a642c977968345e366b5fa409fb019d280901add70e3d91ff79bc465
+    digest: 9355ab90277e30cfc660e60be55b118d89c512937f4c0c90fda94358fb5c26e3
     name: venco-nginx
     type: application
     urls:
     - https://vencoafrica.github.io/helm-charts/venco-nginx-0.1.2.tgz
     version: 0.1.2
-generated: "2022-11-10T15:14:20.232155+01:00"
+generated: "2022-11-10T15:16:20.091546+01:00"
