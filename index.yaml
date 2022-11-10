@@ -4,10 +4,6 @@ entries:
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-11-10T12:38:43.952274+01:00"
-    dependencies:
-    - name: venco-nginx
-      repository: https://vencoafrica.github.io/helm-charts
-      version: 0.1.0
     description: Venco frappe bench instance chart
     digest: 69ae93adad4f94a1599db185c911ebc9fbdecd2c35d00dd777cafd9d8b7d4354
     name: venco-bench
