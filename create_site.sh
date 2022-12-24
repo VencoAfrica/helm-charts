@@ -19,6 +19,7 @@ curl -X POST https://sc.venco.africa/bench-command \
     "--install-app paystack_integration",
     "--install-app meter_management",
     "--install-app simple_payments",
+    "--install-app control_central_client",
     "--no-mariadb-socket",
     "site'$1'.venco.africa"
   ],
