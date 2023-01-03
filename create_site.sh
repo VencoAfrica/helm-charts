@@ -9,15 +9,21 @@ curl -X POST http://0.0.0.0:8500/bench-command \
   "args": [
     "bench",
     "new-site",
-    "site'$1'.venco.africa",
     "--admin-password=admin",
-    "--mariadb-root-username=root",
-    "--db-host=db.venco.africa",
+    "--db-host=172.30.64.14",
     "--mariadb-root-password=all0wm3n0t",
+    "--mariadb-root-username=root",
     "--no-mariadb-socket",
-    "--no-mariadb-socket",
-    "--force"
-  
+    "--install-app=erpnext",
+    "--install-app=estate_manager",
+    "--install-app=mpesa_integration",
+    "--install-app=paystack_integration",
+    "--install-app=meter_management",
+    "--install-app=simple_payments",
+    "--install-app=control_central_client",
+    "--force",
+    "vsite'$1'.venco.africa"
+
   ],
   "command": null,
   "logs_pvc": null,
