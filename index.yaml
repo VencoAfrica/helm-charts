@@ -3,9 +3,9 @@ entries:
   erpnext:
   - apiVersion: v2
     appVersion: v12.17.0
-    created: "2023-01-04T13:42:01.724308+01:00"
+    created: "2023-01-04T14:05:11.531386+01:00"
     description: Kubernetes Helm Chart for the lastest stable ERPNext branch
-    digest: 1c122b8fbea36dbef0331b5913038ebca7331cb961e38aad0450ac8579747e3d
+    digest: 96ae23c294c3be9c1daee65eaefa2f16c1421b3b93041eeb9b99276acd719181
     icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
     name: erpnext
     type: application
@@ -15,7 +15,7 @@ entries:
   venco-bench:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-04T13:42:01.724985+01:00"
+    created: "2023-01-04T14:05:11.532001+01:00"
     dependencies:
     - name: venco-nginx
       repository: https://vencoafrica.github.io/helm-charts
@@ -24,7 +24,7 @@ entries:
       repository: https://vencoafrica.github.io/helm-charts
       version: 0.1.2
     description: Venco frappe bench instance chart
-    digest: 8235061ae3317cf82783db9f1bf642dd08de859e4ca4c340272fea900f9682aa
+    digest: 47daae2e6946ba91d19cf6f7ca76cd5dfc74c819d87ed314afddb11c537689e5
     name: venco-bench
     type: application
     urls:
@@ -33,9 +33,9 @@ entries:
   venco-mariadb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-04T13:42:01.7263+01:00"
+    created: "2023-01-04T14:05:11.533107+01:00"
     description: Venco Mariadb Instance chart
-    digest: b33965967dcfa20e4b74a6ba241cc74e6bcd6f3a1c70ad7227d8ac305d265f85
+    digest: 2e27d1e7431ed149a0e6db5476bfafedd5075c395e7419b0f46fe08ad908f027
     name: venco-mariadb
     type: application
     urls:
@@ -43,7 +43,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-04T13:42:01.726036+01:00"
+    created: "2023-01-04T14:05:11.53223+01:00"
     description: A Helm chart for Kubernetes
     digest: 91094c54f2ad3d110efbf67cb189ee3853533505236b7ca550241dea721d2f1f
     name: venco-mariadb
@@ -54,12 +54,12 @@ entries:
   venco-nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-04T13:42:01.726548+01:00"
+    created: "2023-01-04T14:05:11.533645+01:00"
     description: Venco nginx instance
-    digest: e3ccbc0a6de86e470999450c62b618cdb141d911380229713160fd06211dfceb
+    digest: 9f9e0b31ac4d167ca8baef63903f4d7260a4e8c70adf615026929b4d48e65be6
     name: venco-nginx
     type: application
     urls:
     - https://vencoafrica.github.io/helm-charts/venco-nginx-0.1.2.tgz
     version: 0.1.2
-generated: "2023-01-04T13:42:01.723747+01:00"
+generated: "2023-01-04T14:05:11.53085+01:00"
